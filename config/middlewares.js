@@ -7,7 +7,7 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      origin: ['http://localhost:3000'],
+      origin: ['https://q-id.vercel.app/'],
       headers: ['Content-Type', 'Authorization', 'Access-Control-Allow-Headers'],
     },
   },
